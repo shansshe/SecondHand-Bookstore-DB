@@ -1,5 +1,5 @@
 # Second-hand Bookstore DB
-This database, designed for a second-hand bookstore, comprises nine tables that capture the relationships and data related to customers, employees, publications, and providers for the bookstore's operations.
+This project designs a MySQL database for a second-hand bookstore, featuring an ER model that visualizes the relationships between customers, staff, and publications. The database consists of nine tables that include information about customers, publications, staff, and providers, allowing for efficient data management and comprehensive analysis of bookstore operations.
 
 ## ER model
 ![shbookshop](https://github.com/shansshe/SecondHand-Bookstore-DB/blob/main/SHbookstore.jpg)
