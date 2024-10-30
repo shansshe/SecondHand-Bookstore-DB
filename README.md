@@ -2,12 +2,12 @@
 This database, designed for a second-hand bookstore, comprises nine tables that capture the relationships and data related to customers, employees, publications, and providers for the bookstore's operations.
 
 ## ER model
-![shbookshopv1](https://hackmd.io/_uploads/Sy5GJQ1Zyx.png)
+![shbookshop](https://github.com/shansshe/SecondHand-Bookstore-DB/blob/main/SHbookstore.jpg)
 
 - Description
     1.	All customers in the database must buy at least one publication, each customer buys some publications, and each publication can only be bought by one customer.
-    2.	Providers can provide zero or some publication, valuers evaluate the value and the status of publications at the same time, and there may be some valuers evaluate some publications. 
-    3.	Clerks can be supervisor or supervisee. Each supervisor leads some supervisees, each supervisee is led by one supervisor.
+    2.	Providers can provide zero or some publications, valuers evaluate the value and the status of publications at the same time, and there may be some valuers evaluate some publications. 
+    3.	Clerks can be supervisors or supervisees. Each supervisor leads some supervisees, each supervisee is led by one supervisor.
     4.	One customer leaves some book reviews, one book is mentioned in some book reviews, and each book review is left by one customer with one book.
     5.	One clerk bargains with some providers, and each provider negotiates with one clerk.
 
@@ -114,5 +114,5 @@ This database, designed for a second-hand bookstore, comprises nine tables that 
 | 2022-02-01 | Nancy | DaVinci Code |
 | 2022-03-04 | John  | The Hobbit   |
 
-## MySQL scripts
-https://drive.google.com/file/d/1oQWrseHiXP5UOynooo86JwacFE_IiUhD/view?usp=sharing
+## MySQL script
+[SHbookstore.sql](https://github.com/shansshe/SecondHand-Bookstore-DB/blob/main/SHbookstore.sql)
